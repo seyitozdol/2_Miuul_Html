@@ -39,11 +39,122 @@
     <noscript>Your browser doen not support JavaScript</noscript>
     <!-- start codes -->
 
+    <!-- Intermedia Form and Table -->
+    <h1>Intermedia Form and Table</h1>
+    <form>
+        <hr>
+        <table>
+            <!-- name -->
+            <tr>
+                <td><label for="uname">ADINIZ:</label></td>
+                <td>
+                    <input 
+                    type="text" 
+                    id="uname"
+                    name="uname"
+                    required
+                    placeholder="Adınızı giriniz"
+                    title="Adınızı giriniz"
+                    autofocus
+                    >
+                </td>
+            </tr>
+
+            <!-- surname -->
+            <tr>
+                <td><label for="usurname">SOYADINIZ:</label></td>
+                <td> 
+                    <input 
+                    type="text" 
+                    id="usurname"
+                    name="usurname"
+                    required
+                    placeholder="Soyadınızı giriniz"
+                    title="Soyadınızı giriniz"
+                    >
+                </td>
+            </tr>
+
+            <!-- email -->
+            <tr>
+                <td><label for="uemail">EMAIL:</label></td>
+                <td> 
+                    <input 
+                    type="email" 
+                    id="uemail"
+                    name="uemail"
+                    required
+                    placeholder="Emailinizi giriniz"
+                    title="Emailinizi giriniz"
+                    >
+                </td>
+            </tr>
+
+            <!-- password -->
+            <tr>
+                <td><label for="upassword">PASSWORD:</label></td>
+                <td> 
+                    <input 
+                    type="password" 
+                    id="upassword"
+                    name="upassword"
+                    required
+                    placeholder="Şifrenizi giriniz"
+                    title="Şifrenizi giriniz"
+                    minlength="3"
+                    maxlength="10"
+                    pattern="[a-zA-Z0-9]{3,10}"
+                    >
+                </td>
+            </tr>
+
+             <!-- gender -->
+             <tr>
+                <td><label>GENDER:</label></td>
+                <td> 
+                    <input 
+                    type="radio" 
+                    id="female"
+                    name="gender"
+                    checked
+                    > Bayan
+
+                    <input 
+                    type="radio" 
+                    id="male"
+                    name="gender"
+                    > Erkek
+                </td>
+            </tr>
+
+             <!-- Date -->
+             <tr>
+                <td><label for="udate">DATE:</label></td>
+                <td> 
+                    <input 
+                    type="datetime-local" 
+                    id="udate"
+                    name="udate"
+                    > 
+                </td>
+            </tr>
+
+            <!-- button -->
+            <tr>
+                <td></label></td>
+                <td> <input type="reset">
+                    <button type="submit">Gönder</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+<hr>
+    <hr>
     <!-- Basic Form and Table -->
     <!-- Basic Form -->
     <h1>Basic Form and Table</h1>
     <form>
-
         <hr>
         <table>
             <!-- name -->
@@ -63,7 +174,7 @@
                 <td><label for="uemail">EMAIL:</label></td>
                 <td> <input type="text" id="uemail"></td>
             </tr>
-            
+
             <!-- password -->
             <tr>
                 <td><label for="upassword">PASSWORD:</label></td>
