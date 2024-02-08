@@ -1,2 +1,6 @@
 deneme - conflict
+<<<<<<< HEAD
+asdasda
+=======
 2. satır
+>>>>>>> f0a79b9ae0ba75d93dbc2aad72831d8798445813
